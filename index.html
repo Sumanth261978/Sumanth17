@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Ranavena Sumanth - B.Tech in Computer Science (AI & ML), Full Stack Developer, and Machine Learning Enthusiast.">
+  <meta name="keywords" content="Ranavena Sumanth, AI, Machine Learning, Full Stack, Django, Python, Portfolio">
+  <meta name="author" content="Ranavena Sumanth">
+  <title>Ranavena Sumanth | AI & ML Engineer | Full Stack Developer</title>
+
+  <!-- Preconnect Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <header class="site-header" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="brand-monogram" aria-label="Ranavena Sumanth Home">
+        <span class="brand-badge">RS</span>
+        <span class="brand-name">Ranavena Sumanth</span>
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <i class="fa-solid fa-bars menu-icon"></i>
+        <i class="fa-solid fa-xmark close-icon"></i>
+      </button>
+
+      <nav class="nav-links" id="navMenu" aria-label="Primary navigation">
+        <ul>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#certifications" class="nav-link">Certifications</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="nav-cta">
+          <a href="assets/resume.pdf" class="btn btn-outline-sm" target="_blank" rel="noopener noreferrer" download>
+            <i class="fa-solid fa-arrow-down-to-bracket"></i> Resume
+          </a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="status-indicator">
+            <span class="status-dot"></span>
+            <span>Open for Internship &amp; Full-Time Roles</span>
+          </div>
+          <h1 class="hero-title">
+            Ranavena Sumanth
+          </h1>
+          <h2 class="hero-subtitle">
+            Computer Science Undergraduate <span class="text-accent">(AI &amp; ML)</span> &amp; Full Stack Developer
+          </h2>
+          <p class="hero-description">
+            Enthusiastic technologist based in Hyderabad &amp; Peddapalli, Telangana. Bridging machine learning architectures and full-stack software development with a continuous learning mindset.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">
+              <i class="fa-solid fa-code"></i> View Projects
+            </a>
+            <a href="assets/resume.pdf" class="btn btn-outline" target="_blank" rel="noopener noreferrer" download>
+              <i class="fa-solid fa-file-pdf"></i> Download Resume
+            </a>
+            <a href="#contact" class="btn btn-ghost">
+              <i class="fa-solid fa-paper-plane"></i> Get in Touch
+            </a>
+          </div>
+
+          <div class="hero-meta">
+            <span class="meta-item"><i class="fa-solid fa-location-dot"></i> Hyderabad, Telangana, India</span>
+            <a href="mailto:ranavenasumanth@gmail.com" class="meta-item"><i class="fa-solid fa-envelope"></i> ranavenasumanth@gmail.com</a>
+            <a href="tel:9392858264" class="meta-item"><i class="fa-solid fa-phone"></i> +91 9392858264</a>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="profile-card-wrapper">
+            <div class="profile-photo-container">
+              <img src="assets/profile.jpg" alt="Ranavena Sumanth Profile" class="profile-photo" onerror="this.onerror=null; this.parentElement.classList.add('photo-fallback');">
+              <div class="avatar-fallback">
+                <span>RS</span>
+              </div>
+            </div>
+            <div class="profile-summary-badge">
+              <div class="stat-pill">
+                <i class="fa-solid fa-graduation-cap"></i>
+                <div>
+                  <span class="pill-label">Degree</span>
+                  <strong>B.Tech CS (AI&amp;ML)</strong>
+                </div>
+              </div>
+              <div class="stat-pill">
+                <i class="fa-solid fa-brain"></i>
+                <div>
+                  <span class="pill-label">Focus</span>
+                  <strong>ML Algorithms &amp; DL</strong>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section-padding">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Profile Overview</span>
+          <h2 class="section-title">About Me</h2>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-card primary-card">
+            <h3 class="card-title"><i class="fa-solid fa-bullseye text-accent"></i> Professional Summary</h3>
+            <p class="lead-text">
+              Enthusiastic learner seeking internship and job opportunities to apply knowledge, gain industry exposure, and grow as a technology professional with foundational skills in Artificial Intelligence and Machine Learning, including Python and basic ML algorithms. Dedicated to contributing to innovative projects with a continuous learning mindset.
+            </p>
+            <div class="traits-grid">
+              <div class="trait-item">
+                <i class="fa-solid fa-puzzle-piece"></i>
+                <div>
+                  <h4>Problem Solving</h4>
+                  <p>Analytical approach to technical debugging and algorithmic optimization.</p>
+                </div>
+              </div>
+              <div class="trait-item">
+                <i class="fa-solid fa-users"></i>
+                <div>
+                  <h4>Team Collaboration</h4>
+                  <p>Effective contributor in agile team settings and collaborative sprints.</p>
+                </div>
+              </div>
+              <div class="trait-item">
+                <i class="fa-solid fa-chart-line"></i>
+                <div>
+                  <h4>Analytical Thinking</h4>
+                  <p>Structure data-driven solutions for real-world logistical and tech problems.</p>
+                </div>
+              </div>
+              <div class="trait-item">
+                <i class="fa-solid fa-arrows-rotate"></i>
+                <div>
+                  <h4>Adaptability</h4>
+                  <p>Quick to adopt evolving AI tooling, frameworks, and deployment practices.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-card meta-sidebar-card">
+            <h3 class="card-title"><i class="fa-solid fa-id-card text-accent"></i> Candidate Details</h3>
+            <ul class="details-list">
+              <li>
+                <span class="label">Full Name</span>
+                <span class="value">Ranavena Sumanth</span>
+              </li>
+              <li>
+                <span class="label">Locations</span>
+                <span class="value">Hyderabad &amp; Peddapalli, Telangana</span>
+              </li>
+              <li>
+                <span class="label">Nationality</span>
+                <span class="value">Indian</span>
+              </li>
+              <li>
+                <span class="label">Date of Birth</span>
+                <span class="value">17th July 2003</span>
+              </li>
+              <li>
+                <span class="label">Gender</span>
+                <span class="value">Male</span>
+              </li>
+              <li>
+                <span class="label">Languages Known</span>
+                <span class="value">English, Telugu, Hindi</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section-padding bg-alt">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Core Competencies</span>
+          <h2 class="section-title">Technical &amp; Foundational Skills</h2>
+          <p class="section-subtext">Categorized directly according to verified engineering competencies and coursework.</p>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Programming Languages -->
+          <div class="skill-category-card">
+            <div class="skill-cat-header">
+              <i class="fa-solid fa-terminal cat-icon"></i>
+              <h3>Programming Languages</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-badge"><i class="fa-brands fa-python"></i> Python</span>
+              <span class="skill-badge"><i class="fa-brands fa-js"></i> JavaScript</span>
+              <span class="skill-badge"><i class="fa-solid fa-code"></i> C</span>
+              <span class="skill-badge"><i class="fa-solid fa-file-code"></i> C++</span>
+            </div>
+          </div>
+
+          <!-- Web Development -->
+          <div class="skill-category-card">
+            <div class="skill-cat-header">
+              <i class="fa-solid fa-layer-group cat-icon"></i>
+              <h3>Full-Stack Web Dev</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-badge"><i class="fa-brands fa-html5"></i> HTML5</span>
+              <span class="skill-badge"><i class="fa-brands fa-css3-alt"></i> CSS3</span>
+              <span class="skill-badge"><i class="fa-brands fa-react"></i> React.js</span>
+              <span class="skill-badge"><i class="fa-brands fa-node-js"></i> Node.js</span>
+              <span class="skill-badge"><i class="fa-solid fa-cubes"></i> Django</span>
+              <span class="skill-badge"><i class="fa-solid fa-gears"></i> REST APIs</span>
+            </div>
+          </div>
+
+          <!-- Machine Learning -->
+          <div class="skill-category-card">
+            <div class="skill-cat-header">
+              <i class="fa-solid fa-network-wired cat-icon"></i>
+              <h3>Machine Learning Basics</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-badge">Regression</span>
+              <span class="skill-badge">Classification</span>
+              <span class="skill-badge">Clustering</span>
+              <span class="skill-badge">Decision Trees</span>
+              <span class="skill-badge">ML Algorithms</span>
+            </div>
+          </div>
+
+          <!-- Deep Learning & GenAI -->
+          <div class="skill-category-card">
+            <div class="skill-cat-header">
+              <i class="fa-solid fa-microchip cat-icon"></i>
+              <h3>Deep Learning &amp; GenAI</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-badge">Neural Networks</span>
+              <span class="skill-badge">CNNs (Basics)</span>
+              <span class="skill-badge">RNNs (Basics)</span>
+              <span class="skill-badge">Generative AI Concepts</span>
+            </div>
+          </div>
+
+          <!-- Databases & Analytics -->
+          <div class="skill-category-card">
+            <div class="skill-cat-header">
+              <i class="fa-solid fa-database cat-icon"></i>
+              <h3>Databases &amp; Analytics</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-badge"><i class="fa-solid fa-table"></i> SQL Basics</span>
+              <span class="skill-badge"><i class="fa-solid fa-server"></i> MySQL</span>
+              <span class="skill-badge"><i class="fa-solid fa-leaf"></i> MongoDB</span>
+              <span class="skill-badge"><i class="fa-solid fa-chart-pie"></i> Power BI</span>
+              <span class="skill-badge">Structured / Unstructured Data</span>
+              <span class="skill-badge">Spreadsheets</span>
+            </div>
+          </div>
+
+          <!-- Cloud & Deployment Intro -->
+          <div class="skill-category-card">
+            <div class="skill-cat-header">
+              <i class="fa-solid fa-cloud cat-icon"></i>
+              <h3>Cloud &amp; Deployment (Intro)</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-badge"><i class="fa-brands fa-aws"></i> AWS (Familiarity)</span>
+              <span class="skill-badge"><i class="fa-brands fa-microsoft"></i> Azure (Familiarity)</span>
+              <span class="skill-badge"><i class="fa-brands fa-google"></i> Google Cloud (Familiarity)</span>
+              <span class="skill-badge">ML Model Hosting Concepts</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section-padding">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Engineering Work</span>
+          <h2 class="section-title">Academic Projects</h2>
+          <p class="section-subtext">Real-world problem-solving through software development and database integration.</p>
+        </div>
+
+        <div class="projects-list">
+          <article class="project-card">
+            <div class="project-header">
+              <div class="project-meta-top">
+                <span class="project-type"><i class="fa-solid fa-cart-shopping"></i> Web Architecture &amp; Logistics</span>
+                <span class="badge-status">Academic Implementation</span>
+              </div>
+              <h3 class="project-name">SMARTMART (Online Ordering &amp; Delivery Platform)</h3>
+            </div>
+            
+            <div class="project-body">
+              <div class="project-description-block">
+                <h4>Problem &amp; Solution</h4>
+                <p>
+                  The online Smart-Mart shopping platform was developed to offer a targeted solution eliminating delivery delays and extra surcharge costs charged by conventional platforms for accelerated shipping.
+                </p>
+                <p>
+                  The platform intelligently identifies and selects nearby local merchant shops relative to customer coordinates, routing fulfillment locally to ensure faster turnaround times and accurate address drop-offs.
+                </p>
+              </div>
+
+              <div class="project-tech-architecture">
+                <h4>Architecture &amp; Tech Stack</h4>
+                <ul class="tech-bullets">
+                  <li><strong>Backend Framework:</strong> Python with Django framework for rapid backend endpoints and request handling.</li>
+                  <li><strong>Frontend Interface:</strong> Built with semantic HTML5, custom CSS3 styling, and JavaScript for client interactivity.</li>
+                  <li><strong>Database &amp; Interfacing:</strong> MySQL used for storing relational user and order data, with Python acting as the interface between web forms and the database for storing and fetching.</li>
+                </ul>
+                
+                <div class="tech-badge-container">
+                  <span class="tech-pill">Django</span>
+                  <span class="tech-pill">Python</span>
+                  <span class="tech-pill">MySQL</span>
+                  <span class="tech-pill">JavaScript</span>
+                  <span class="tech-pill">HTML5</span>
+                  <span class="tech-pill">CSS3</span>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section-padding bg-alt">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Academic Foundation</span>
+          <h2 class="section-title">Education</h2>
+          <p class="section-subtext">Formal education in Computer Science, Artificial Intelligence, and Sciences.</p>
+        </div>
+
+        <div class="timeline">
+          <!-- Degree -->
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-badge">2022 - 2026</div>
+              <h3 class="institution-title">Bachelor of Technology (B.Tech)</h3>
+              <p class="specialization">Computer Science (Artificial Intelligence &amp; Machine Learning)</p>
+              <p class="institution-name"><i class="fa-solid fa-building-columns"></i> JNTUH University College Of Engineering Manthani, Peddapalli</p>
+              <div class="score-chip">
+                <span class="score-label">Aggregate:</span> <strong>70%</strong>
+              </div>
+            </div>
+          </div>
+
+          <!-- Intermediate -->
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-badge">2020 - 2022</div>
+              <h3 class="institution-title">Intermediate Education (MPC)</h3>
+              <p class="specialization">Mathematics, Physics, Chemistry</p>
+              <p class="institution-name"><i class="fa-solid fa-school"></i> SR Junior College, Karimnagar</p>
+              <div class="score-chip">
+                <span class="score-label">Percentage:</span> <strong>80%</strong>
+              </div>
+            </div>
+          </div>
+
+          <!-- SSC -->
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-badge">2019 - 2020</div>
+              <h3 class="institution-title">Secondary School Certificate (SSC - 10th)</h3>
+              <p class="institution-name"><i class="fa-solid fa-school-flag"></i> New Millenium Model School, Karimnagar</p>
+              <div class="score-chip highlight-chip">
+                <span class="score-label">Percentage:</span> <strong>95%</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="section-padding">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Continuous Learning</span>
+          <h2 class="section-title">Certifications &amp; Specializations</h2>
+          <p class="section-subtext">Industry-standard programs across Machine Learning, Generative AI, and Development.</p>
+        </div>
+
+        <div class="certifications-grid">
+          <div class="cert-card">
+            <div class="cert-icon-wrapper">
+              <i class="fa-solid fa-brain cert-icon"></i>
+            </div>
+            <div class="cert-details">
+              <span class="cert-issuer">Coursera</span>
+              <h3 class="cert-title">Machine Learning Specialization</h3>
+              <p class="cert-desc">Completed specialization covering foundational learning algorithms, model evaluation, and applications.</p>
+            </div>
+          </div>
+
+          <div class="cert-card">
+            <div class="cert-icon-wrapper">
+              <i class="fa-brands fa-google cert-icon"></i>
+            </div>
+            <div class="cert-details">
+              <span class="cert-issuer">Google Cloud</span>
+              <h3 class="cert-title">Introduction to Generative AI</h3>
+              <p class="cert-desc">Foundations of generative models, LLMs, and Google Cloud AI application principles.</p>
+            </div>
+          </div>
+
+          <div class="cert-card">
+            <div class="cert-icon-wrapper">
+              <i class="fa-solid fa-chart-simple cert-icon"></i>
+            </div>
+            <div class="cert-details">
+              <span class="cert-issuer">Coursera</span>
+              <h3 class="cert-title">Google Data Analytics Certificate</h3>
+              <p class="cert-desc">Comprehensive analytical workflow covering SQL, spreadsheets, data preparation, and data visualization.</p>
+            </div>
+          </div>
+
+          <div class="cert-card">
+            <div class="cert-icon-wrapper">
+              <i class="fa-brands fa-python cert-icon"></i>
+            </div>
+            <div class="cert-details">
+              <span class="cert-issuer">Udemy</span>
+              <h3 class="cert-title">Python Course Completion</h3>
+              <p class="cert-desc">Core object-oriented programming, data structures, scripting, and modular application development.</p>
+            </div>
+          </div>
+
+          <div class="cert-card">
+            <div class="cert-icon-wrapper">
+              <i class="fa-solid fa-code cert-icon"></i>
+            </div>
+            <div class="cert-details">
+              <span class="cert-issuer">Udemy</span>
+              <h3 class="cert-title">Full Stack Web Development</h3>
+              <p class="cert-desc">Comprehensive full-stack engineering with client interfaces, backend services, and database integration.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Professional Strengths / Highlights Section -->
+    <section id="highlights" class="section-padding bg-alt">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Core Attributes</span>
+          <h2 class="section-title">Professional Strengths</h2>
+          <p class="section-subtext">Direct takeaways from academic record, technical breadth, and project delivery.</p>
+        </div>
+
+        <div class="highlights-grid">
+          <div class="highlight-item">
+            <div class="highlight-num">95%</div>
+            <h4>Academic Foundation in SSC</h4>
+            <p>Demonstrated discipline and strong academic aptitude from early secondary education.</p>
+          </div>
+          <div class="highlight-item">
+            <div class="highlight-num">5+</div>
+            <h4>Industry Certifications</h4>
+            <p>Continuous self-motivated upskilling with Google Cloud, Coursera, and Udemy credentials.</p>
+          </div>
+          <div class="highlight-item">
+            <div class="highlight-num">Full-Stack</div>
+            <h4>Integrated Development</h4>
+            <p>Demonstrated capacity to couple relational SQL databases and Django backends with frontend interfaces.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section-padding">
+      <div class="container">
+        <div class="contact-box">
+          <div class="contact-header">
+            <span class="section-eyebrow">Inquiries &amp; Opportunities</span>
+            <h2 class="section-title">Let's Connect</h2>
+            <p class="contact-sub">
+              I am actively seeking technology internship and entry-level opportunities to apply my skills in AI/ML and software development.
+            </p>
+          </div>
+
+          <div class="contact-methods">
+            <a href="mailto:ranavenasumanth@gmail.com" class="contact-card">
+              <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+              <div>
+                <span class="contact-type">Email Address</span>
+                <span class="contact-val">ranavenasumanth@gmail.com</span>
+              </div>
+            </a>
+
+            <a href="tel:9392858264" class="contact-card">
+              <div class="contact-icon"><i class="fa-solid fa-phone"></i></div>
+              <div>
+                <span class="contact-type">Mobile Contact</span>
+                <span class="contact-val">+91 9392858264</span>
+              </div>
+            </a>
+
+            <div class="contact-card">
+              <div class="contact-icon"><i class="fa-solid fa-location-dot"></i></div>
+              <div>
+                <span class="contact-type">Location</span>
+                <span class="contact-val">Hyderabad &amp; Peddapalli, Telangana</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-cta-wrapper">
+            <a href="mailto:ranavenasumanth@gmail.com" class="btn btn-primary">
+              <i class="fa-solid fa-paper-plane"></i> Send an Email
+            </a>
+            <a href="assets/resume.pdf" class="btn btn-outline" target="_blank" rel="noopener noreferrer" download>
+              <i class="fa-solid fa-arrow-down-to-bracket"></i> Download Resume PDF
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div class="footer-brand">
+        <span class="brand-badge-sm">RS</span>
+        <p><strong>Ranavena Sumanth</strong> — B.Tech in CS (AI &amp; ML)</p>
+      </div>
+      
+      <nav class="footer-nav" aria-label="Footer navigation">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="footer-bottom">
+        <p>&copy; <span id="currentYear">2026</span> Ranavena Sumanth. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back To Top Button -->
+  <button id="backToTop" class="back-to-top" aria-label="Back to top of page">
+    <i class="fa-solid fa-chevron-up"></i>
+  </button>
+
+  <!-- Script -->
+  <script src="index.js"></script>
+</body>
+</html>
